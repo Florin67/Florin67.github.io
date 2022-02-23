@@ -12,35 +12,28 @@
 	text-align: center;
 }
 
-.secondH {
-	margin: 30px;
-	text-align: left;
+
+.descr {
+	width: 70%;
+ 	margin: 10px;
 }
 
-.column {
-  float: left;
-  width: 40%;
-  margin: 10px;
-}
-
-.image {
-
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.me {
+	width: 30%;
+ 	margin: 10px;
 }
 
 .end {
 	margin: 20px;
 	text-align: right;
+	padding-top: 0%;
 }
 
-div div ul li {
-	margin: 10px;
-	padding: 5px;
-	list-style-type: none;
+
+table tr td {
+	margin-right: 13%;
+	width: 20%;
+	align-self: center;
+	padding-top: 13%;
+	
 }
