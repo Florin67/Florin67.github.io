@@ -1,4 +1,4 @@
-#body {
+body {
 	background: #555;
 	margin: 0px;
 }
@@ -12,28 +12,44 @@
 	text-align: center;
 }
 
+.profile {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.icon {
+	position: fixed;
+	right: 7px;
+	bottom: 0px;
+}
+
+.buttons {
+  background-color: #00ff0d;
+  border: none;
+  color: rgb(13, 0, 255);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 8px;
+  position: absolute;
+  right: 1.5%;
+  top: 10px;
+}
+
+div p a img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .descr {
 	width: 70%;
- 	margin: 10px;
-}
-
-.me {
-	width: 30%;
- 	margin: 10px;
-}
-
-.end {
-	margin: 20px;
-	text-align: right;
-	padding-top: 0%;
-}
-
-
-table tr td {
-	margin-right: 13%;
-	width: 20%;
-	align-self: center;
-	padding-top: 13%;
-	
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
